@@ -1,5 +1,7 @@
 // packages needed for this application
 const inquirer = require('inquirer');
+const fs = require("fs");
+const path = require("path");
 const { renderLicenseBadge, generateMarkdown } = require('./utils/generateMarkdown');
 // array of questions for user input
 const questions = [
@@ -115,7 +117,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  
+  return fs.writeFileSync(path.join(process.cwd(), "/dist/"+fileName), data)
 }
 
 // function to initialize app
