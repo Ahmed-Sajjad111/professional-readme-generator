@@ -33,7 +33,7 @@ function renderLicenseLink(license) {
 // function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license !== 'None') {
+  if (license !== 'No License') {
     return `## License
     
   This project is licensed under [${license}]` + renderLicenseLink(license)
@@ -41,11 +41,25 @@ function renderLicenseSection(license) {
   return ''
 }
 
+function renderLicenseToCSection(license) {
+  if(license !== 'No License') {
+    return `* [License](#license)`
+  }
+  return ''
+}
+
 function renderContributingSection(contribution) {
   if (contribution === true) {
     return `## Contributing
-    
+  
   [Contributer Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)`
+  }
+  return ''
+}
+
+function renderContributingToCSection(contribution){
+  if(contribution === true) {
+    return `* [Contributing](#contributing)`
   }
   return ''
 }
@@ -61,7 +75,8 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](contributing)
+  ${renderLicenseToCSection(data.license)}
+  ${renderContributingToCSection(data.contribution)}
   * [Tests](#tests)
   * [Questions](#questions)
 
@@ -78,17 +93,17 @@ function generateMarkdown(data) {
 
   ## Tests
   To run tests, follow these instructions:
-  ${data.test}
+  ${data.tests}
 
   ## Questions
 
   If you have any questions you may reach me at:
 
 
-  ${data.email}
+  Email: ${data.email}
 
 
-  [${data.github}](https://github.com/${data.github}/)
+  Github: [${data.github}](https://github.com/${data.github}/)
 
 `;
 }
