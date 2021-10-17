@@ -9,7 +9,7 @@
   * Node.js
 
   ## Preview
-  ![Screenshot of application preview](images/readme-generator-preview.png)
+  ![Screenshot of application preview](./images/screenshot.png)
 
   ## Walkthrough video
   
