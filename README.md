@@ -9,7 +9,7 @@
   * Node.js
 
   ## Preview
-  ![Screenshot of application preview](./images/screenshot.png)
+  ![Screenshot of application preview](./images/screenshot.PNG)
 
   ## Walkthrough video
   
