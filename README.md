@@ -12,7 +12,7 @@
   ![Screenshot of application preview](./images/screenshot.PNG)
 
   ## Walkthrough video
-  
+  Please view the walkthrough of this application at this link: [Video Link](https://drive.google.com/file/d/1qvEHFHixKSoffI2U-1OsopXUyhr1V4bn/view)
 
   ## Table of Contents
   * [Installation](#installation)

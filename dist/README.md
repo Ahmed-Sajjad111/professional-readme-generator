@@ -2,7 +2,7 @@
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
-  Provides current weather data and 5 day forecast of temperature, humidity, wind speed, and UVI.
+  Provides current weather data and a 5 day forecast of temperature, humidity, wind speed, and UVI.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -29,7 +29,7 @@
 
   ## Tests
   To run tests, follow these instructions:
-  N/A 
+  N/A simply use the web app on its deployed webpage.
 
   ## Questions
 
