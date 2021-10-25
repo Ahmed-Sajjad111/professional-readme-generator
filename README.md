@@ -26,7 +26,7 @@
   Clone the [repository](https://github.com/Ahmed-Sajjad111/professional-readme-generator) to your local files, and install [Node.js](https://nodejs.org/en/)
 
   ## Usage
-  Ppen application with any command prompt interface that you prefer and type in "npm install" After all the packages are installed, simply run "node index.js" and follow the command line interface to generate your very own README!
+  Open application with any command prompt interface that you prefer and type in "npm install" After all the packages are installed, simply run "node index.js" and follow the command line interface to generate your very own README!
 
   ## License
   This project is licensed under [MIT](https://opensource.org/licenses/MIT)
